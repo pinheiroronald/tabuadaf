@@ -2,50 +2,77 @@
 body{
   font-family: sans-serif;
   background-color:  #FED6A5;
-  
-  
-
+  font-size: small;
 }
+h1{
+  
+  font-style: italic;
+  font-size: 450%;
+}
+h2{
+  font-size: 170%;
+}
+p{
+  font-size: 100%;
+}
+
 header{
   text-align: center;
-
-  
+  margin-bottom: 20px;
+}
+nav > input{
+  background-color:#90F1FF;
+  border-radius: 3px;
+  box-shadow: 2px 2px 3px rgb(0, 0, 0);
+  border: 1px solid black;
+  }
+input{
+ font-size: 100%;
+ width: 70px;
+  padding: 2px 2px 2px ;
+  margin-top: 5px;
 }
 section{
   background-color: #fed6a5;
+  margin-left: 10%;
+  margin-right: 10%;
+ 
 }
-.oob{
-  padding: 3px 3px 3px ;
-  text-align: center;
-  
-}
-input{
-  margin-top: 2vw;
-  font-size: 100%;
-  padding: 2px 2px 2px ;
-}
-
-
 article{
   background-color: #fed6a5;
   border-radius: 5px;
-  padding: 15px;
+  padding: 10px;
+  margin-top: 2vw;
   margin-left: 10vw;
   margin-right: 10vw;
-  border: 2px solid rgba(0, 0, 0, 0.432) ;
   background-position: center;
+ }
+.art-001{
+  background-color: white;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.617);
+  border: 2px solid rgb(0, 0, 0) ;
 }
+
 .ood{
   background-image: url('imagens/tabuada.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 40vw;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  
-  
+  height: 30vw;
+  width: 50vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
-footer{
+.opera{
+  text-align: center;
+  background-color:#90F1FF;
+  border-radius: 3px;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.539);
+  border: 1px solid black;
+  font-size: 130%;
+}
+footer > p{
   text-align: center;
   background-color: black;
   color: white;
