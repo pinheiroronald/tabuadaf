@@ -14,5 +14,9 @@ function ir_adicao(){
 
 function ir_subtracao(){
         window.location.href = "operacoes/subtrair/subtracao.html"
+} 
+function principal(){
+    window.location.href ="index.html"
 }
+
 
