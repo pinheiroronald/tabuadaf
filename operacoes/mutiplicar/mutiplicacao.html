@@ -5,27 +5,35 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mutiplicacao</title>
-<link rel="stylesheet" href="../../matematica.css">
+<link rel="stylesheet" href="../../stilus/matema.css">
 </head>
 <body>
 <header>
 <h1>Tabuada</h1> 
-<p>Mutiplicacao</p>
+
 </header>
 
 <section class="opera">
+  <p class="operacoes">Mutiplicação</p>
 
-<p id="res">
-</p>
+  <p id="res">
+  </p>
 
 <p>
-  Digite o Mutiplicando: <input id="tx-1" type="number" class="inp-n"> <br> 
-    <input id="inp-1" type="button" value="Produto" onclick="multiplicar()">
+
+<label for="tx-1">Digite a tabuada:</label> 
+
+<input id="tx-1" type="number" class="inp-n" max="10" min="1"  autofocus> <br> 
+
+<input id="inp-1" type="button" value="Calcular" onclick="multiplicar()">
 </p>
+
 </section>
-<input type="button" value="Voltar" style="margin-left: 50px;" onclick="principal()">
+
+<a href="../../index.html"  rel="noopener noreferrer">Voltar</a>
+
 <footer>
-<p>&copycriado por Ronald Pinheiro</p>
+<p>&copycriado por Ronald Pinheiro, 2022</p>
 </footer>
 
 <script src="meu.js">
