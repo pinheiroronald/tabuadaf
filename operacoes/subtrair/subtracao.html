@@ -5,27 +5,31 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>subtraçao</title>
-<link rel="stylesheet" href="../../matematica.css">
+<link rel="stylesheet" href="../../stilus/matema.css">
 </head>
 <body>
 
 <header>
     <h1>Tabuada</h1>
-    <p>Subtração</p>
+   
 </header>
 
 <section class="opera">
+
+    <p class="operacoes">Subtração</p>
+
     <p id="res">
     </p>
-<p id="prf-1">
-Digite o minuendo:
-<input id="tx-1" type="number" class="inp-n"> <br>
- <input id="inp-1" type="button" value="Subtrair" onclick="subtracao()"><br>
+
+<p>
+<label for="tx-1">Digite a Tabuada:</label>
+<input id="tx-1" type="number" class="inp-n" min="1" max="10"> <br>
+ <input id="inp-1" type="button" value="Calcular" onclick="subtracao()">
 </p>
 
-
-
 </section>
+
+<a href="../../index.html">Voltar</a>
 <footer>
 <p>&copycriado por Ronald Pinheiro</p>
 </footer>
