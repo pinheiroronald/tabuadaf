@@ -5,27 +5,31 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>adicao</title>
-<link rel="stylesheet" href="../../matematica.css">
+<link rel="stylesheet" href="../../stilus/matema.css">
 </head>
 <body>
 <header>
 <h1>Tabuada</h1> 
-<p>Adição</p>
+
 </header>
 
 <section class="opera">
+    <p class="operacoes">Adição</p>
+
     <p id="res">
     </p>
 
 <p>
-Digite a Parcela:
-<input id="tx-1" type="number" class="inp-n"> <br>
-<input id="inp-1" type="button" value="somar" onclick="adicao()"><br>
+<label for="tx-1">Digite a Tabuada:</label>
+
+<input id="tx-1" type="number" class="inp-n"min="1" max="10"> <br>
+
+<input id="inp-1" type="button" value="Calcular" onclick="adicao()"><br>
 </p>
 </section>
-
+<a href="../../index.html">voltar</a>
 <footer>
-<p>&copycriado por Ronald Pinheiro</p>
+<p>&copycriado por Ronald Pinheiro, 2022</p>
 </footer>
 
 <script src="meu.js">
